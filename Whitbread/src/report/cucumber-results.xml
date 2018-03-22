@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="3.520115">
+<testcase classname="CustomerID" name="End to end flow of customer create Get and delete request." time="3.520115">
+<system-out><![CDATA[Given I have created customer through Post method...........................passed
+When i retrieve the above created customer for confirmation.................passed
+Then I should be able to delete it..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

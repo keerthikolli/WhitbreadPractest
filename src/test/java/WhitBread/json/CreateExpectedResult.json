@@ -1,0 +1,11 @@
+{
+  "statusCode": 200,
+  "headers": {
+    "Access-Control-Allow-Origin": "*"
+  },
+  "body": {
+    "customerId": "dytgmail!$%^.c",
+    "sessionId": "ThfcGqoDNC",
+    "success": true
+  }
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "End to end flow of customer create Get and delete request.",
+        "description": "",
+        "id": "customerid;end-to-end-flow-of-customer-create-get-and-delete-request.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2985603322,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have created customer through Post method",
+            "match": {
+              "location": "EndToEndFlow.i_have_created_customer_through_Post_method()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 267053300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i retrieve the above created customer for confirmation",
+            "match": {
+              "location": "EndToEndFlow.i_retrieve_the_above_created_customer_for_confirmation()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 267458811,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should be able to delete it.",
+            "match": {
+              "location": "EndToEndFlow.i_should_be_able_to_delete_it()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CustomerID",
+    "description": "",
+    "id": "customerid",
+    "keyword": "Feature",
+    "uri": "features/EndToEndFlow.feature"
+  }
+]

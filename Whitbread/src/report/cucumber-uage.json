@@ -1,0 +1,56 @@
+[
+  {
+    "source": "^i retrieve the above created customer for confirmation$",
+    "steps": [
+      {
+        "name": "i retrieve the above created customer for confirmation",
+        "aggregatedDurations": {
+          "average": 0.2670533,
+          "median": 0.2670533
+        },
+        "durations": [
+          {
+            "duration": 0.2670533,
+            "location": "features/EndToEndFlow.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I have created customer through Post method$",
+    "steps": [
+      {
+        "name": "I have created customer through Post method",
+        "aggregatedDurations": {
+          "average": 2.985603322,
+          "median": 2.985603322
+        },
+        "durations": [
+          {
+            "duration": 2.985603322,
+            "location": "features/EndToEndFlow.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I should be able to delete it\\.$",
+    "steps": [
+      {
+        "name": "I should be able to delete it.",
+        "aggregatedDurations": {
+          "average": 0.267458811,
+          "median": 0.267458811
+        },
+        "durations": [
+          {
+            "duration": 0.267458811,
+            "location": "features/EndToEndFlow.feature:7"
+          }
+        ]
+      }
+    ]
+  }
+]

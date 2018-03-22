@@ -61,9 +61,9 @@ public class EndToEndFlow {
 
        Compare com = new Compare();
         JSONObject ranTest = com.testread();
-        ranTest.put("customerId",customerid);
+        ranTest.put("customerId",hugiugui);
 
-        ranTest.put("sessionId",Sess_Id);
+        ranTest.put("sessionId",hkhugiuiu);
 
         String ExpectedResult = ranTest.toString();
 
